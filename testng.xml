@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Lambdatest Playground Automation Suite" >
+<!--    <listeners>-->
+<!--        <listener class-name="utilities.ExtentReportListener" />-->
+<!--    </listeners>-->
+    <test name="Lambdatest Playground Tests">
+        <classes>
+<!--            <class name="testCases.TC_013DynamicPropertiesTest"/>-->
+        </classes>
+    </test>
+</suite>
