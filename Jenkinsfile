@@ -28,22 +28,9 @@ pipeline {
                 bat 'mvn test'
             }
         }
-
-        stage('Archive TestNG Report') {
-            steps {
-                // Your TestNG report is generated at root folder under "reports"
-                // Archive it so you can view in Jenkins
-                archiveArtifacts artifacts: 'reports/SparkReport_*.html', fingerprint: true
-            }
-        }
     }
 
     post {
-        always {
-            // Archive build artifacts (like JARs)
-            archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true
-        }
-
         success {
             echo 'Build Successful - TestNG tests executed'
         }
