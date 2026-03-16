@@ -135,7 +135,7 @@
                 <configuration>
                     <argLine>--enable-preview</argLine>
                     <suiteXmlFiles>
-                        <suiteXmlFile>D:/SeleniumLearning/DemoQa/testng.xml</suiteXmlFile>
+                        <suiteXmlFile>D:/SeleniumLearning/LambdatestPlayground/testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
