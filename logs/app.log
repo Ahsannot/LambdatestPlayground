@@ -82,3 +82,13 @@ Caused by: java.nio.channels.ClosedChannelException
 2026-03-16 13:06:36.329 [main] INFO  testCases.TC_001HomePageTest - ===== Starting Home Page Test =====
 2026-03-16 13:06:36.884 [main] INFO  testCases.TC_001HomePageTest - HomePage validation passed
 2026-03-16 13:06:37.013 [main] INFO  testCases.TC_001HomePageTest - Browser closed successfully.
+2026-03-16 15:12:29.573 [main] INFO  testCases.TC_001HomePageTest - ===== Test Execution Started =====
+2026-03-16 15:12:34.570 [main] INFO  testCases.TC_001HomePageTest - Running on Selenium Grid - Chrome
+2026-03-16 15:12:44.607 [main] INFO  testCases.TC_001HomePageTest - Navigated to: https://ecommerce-playground.lambdatest.io/index.php?route=common/home
+2026-03-16 15:12:44.655 [main] INFO  testCases.TC_001HomePageTest - ===== Starting Home Page Test =====
+2026-03-16 15:12:44.841 [main] INFO  testCases.TC_001HomePageTest - HomePage validation passed
+2026-03-16 15:12:44.941 [main] INFO  testCases.TC_001HomePageTest - Browser closed successfully.
+2026-03-16 15:12:45.746 [main] INFO  utilities.EmailReportSender - Sender email: ahsan.clariv@gmail.com
+2026-03-16 15:12:45.746 [main] INFO  utilities.EmailReportSender - Sender password: mstv vggb nbmk kehz
+2026-03-16 15:12:45.748 [main] INFO  utilities.EmailReportSender - SMTP properties: {mail.smtp.port=587, mail.smtp.auth=true, mail.smtp.starttls.enable=true, mail.smtp.host=smtp.gmail.com}
+2026-03-16 15:12:49.966 [main] INFO  utilities.EmailReportSender - Report sent successfully to hafizgee07@gmail.com

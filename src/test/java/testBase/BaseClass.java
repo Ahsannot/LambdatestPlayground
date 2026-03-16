@@ -11,11 +11,14 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import utilities.ConfigReader;
 
 import java.io.IOException;
+import java.lang.reflect.Method;
 import java.net.URL;
 import java.time.Duration;
 
@@ -116,13 +119,19 @@ public class BaseClass {
         logger.info(pageName + " validation passed");
     }
 
+    // Attach driver to ITestResult
+    @BeforeMethod(alwaysRun = true)
+    public void attachDriverToTestResult(Method method, ITestResult result) {
+        result.setAttribute("driver", driver);
+    }
+
     @AfterClass
     public void tearDown() {
 
         if (getDriver() != null) {
 
-            getDriver().quit();
-            driver.remove();
+            getDriver().quit(); // Close browser & Ends WebDriver session
+            driver.remove();   // Remove thread referenc & Clears ThreadLocal memory
 
             logger.info("Browser closed successfully.");
         }
