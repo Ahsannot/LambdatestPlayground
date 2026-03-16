@@ -11,8 +11,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                // Clone repository
-                git 'https://github.com/Ahsannot/LambdatestPlayground.git'
+                git branch: 'main', url: 'https://github.com/Ahsannot/LambdatestPlayground.git'
             }
         }
 
