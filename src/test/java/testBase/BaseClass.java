@@ -39,7 +39,7 @@ public class BaseClass {
         String browser = ConfigReader.getProperty("browser");
         String env = ConfigReader.getProperty("execution_env");
         String hubURL = ConfigReader.getProperty("hubURL");
-        boolean headless = Boolean.parseBoolean(ConfigReader.getProperty("headless"));
+//        boolean headless = Boolean.parseBoolean(ConfigReader.getProperty("headless"));
 
         try {
 
@@ -48,9 +48,9 @@ public class BaseClass {
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--incognito");
 
-                if (headless) {
-                    options.addArguments("--headless=new");
-                }
+//                if (headless) {
+//                    options.addArguments("--headless=new");
+//                }
 
                 if (env.equalsIgnoreCase("grid")) {
 
@@ -122,7 +122,7 @@ public class BaseClass {
     // Attach driver to ITestResult
     @BeforeMethod(alwaysRun = true)
     public void attachDriverToTestResult(Method method, ITestResult result) {
-        result.setAttribute("driver", driver);
+        result.setAttribute("driver", getDriver());
     }
 
     @AfterClass
