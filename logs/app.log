@@ -10,3 +10,100 @@
 2026-03-18 14:58:11.560 [main] INFO  utilities.EmailReportSender - Report sent successfully to hafizgee07@gmail.com
 2026-03-18 15:05:02.445 [main] INFO  testCases.TC_001HomePageTest - ===== Test Execution Started =====
 2026-03-18 15:05:04.699 [main] INFO  testCases.TC_001HomePageTest - Running on Local Chrome
+2026-03-18 15:26:53.420 [main] INFO  testCases.TC_001HomePageTest - ===== Test Execution Started =====
+2026-03-18 15:26:55.950 [main] INFO  testCases.TC_001HomePageTest - Running on Local Chrome
+2026-03-18 15:27:04.685 [main] INFO  testCases.TC_001HomePageTest - Navigated to: https://ecommerce-playground.lambdatest.io/index.php?route=common/home
+2026-03-18 15:27:04.736 [main] INFO  testCases.TC_001HomePageTest - ===== Starting Home Page Test =====
+2026-03-18 15:27:04.862 [main] INFO  testCases.TC_001HomePageTest - HomePage validation passed
+2026-03-18 15:27:04.862 [main] INFO  testCases.TC_001HomePageTest - ===== Home Page Test Passed =====
+2026-03-18 15:27:05.039 [main] INFO  testCases.TC_001HomePageTest - ===== Hover over My Account =====
+2026-03-18 15:27:11.104 [main] INFO  testCases.TC_001HomePageTest - ===== User redirected to Registration Page =====
+2026-03-18 15:27:11.303 [main] INFO  testCases.TC_001HomePageTest - Browser closed successfully.
+2026-03-18 15:27:11.600 [main] INFO  utilities.EmailReportSender - Sender email: ahsan.clariv@gmail.com
+2026-03-18 15:27:11.616 [main] INFO  utilities.EmailReportSender - Sender password: mstv vggb nbmk kehz
+2026-03-18 15:27:11.616 [main] INFO  utilities.EmailReportSender - SMTP properties: {mail.smtp.port=587, mail.smtp.auth=true, mail.smtp.starttls.enable=true, mail.smtp.host=smtp.gmail.com}
+2026-03-18 15:27:15.606 [main] INFO  utilities.EmailReportSender - Report sent successfully to hafizgee07@gmail.com
+2026-03-18 15:32:21.538 [main] INFO  testCases.TC_001HomePageTest - ===== Test Execution Started =====
+2026-03-18 15:32:23.478 [main] INFO  testCases.TC_001HomePageTest - Running on Local Chrome
+2026-03-18 15:32:40.678 [main] INFO  testCases.TC_001HomePageTest - ===== Test Execution Started =====
+2026-03-18 15:32:43.085 [main] INFO  testCases.TC_001HomePageTest - Running on Local Chrome
+2026-03-18 15:32:50.250 [main] INFO  testCases.TC_001HomePageTest - Navigated to: https://ecommerce-playground.lambdatest.io/index.php?route=common/home
+2026-03-18 15:32:50.311 [main] INFO  testCases.TC_001HomePageTest - ===== Starting Home Page Test =====
+2026-03-18 15:32:50.472 [main] INFO  testCases.TC_001HomePageTest - HomePage validation passed
+2026-03-18 15:32:50.473 [main] INFO  testCases.TC_001HomePageTest - ===== Home Page Test Passed =====
+2026-03-18 15:32:50.669 [main] INFO  testCases.TC_001HomePageTest - ===== Hover over My Account =====
+2026-03-18 15:32:59.603 [main] INFO  testCases.TC_001HomePageTest - ===== User redirected to Registration Page =====
+2026-03-18 15:32:59.817 [main] INFO  testCases.TC_001HomePageTest - Browser closed successfully.
+2026-03-18 15:33:00.141 [main] INFO  utilities.EmailReportSender - Sender email: ahsan.clariv@gmail.com
+2026-03-18 15:33:00.141 [main] INFO  utilities.EmailReportSender - Sender password: mstv vggb nbmk kehz
+2026-03-18 15:33:00.141 [main] INFO  utilities.EmailReportSender - SMTP properties: {mail.smtp.port=587, mail.smtp.auth=true, mail.smtp.starttls.enable=true, mail.smtp.host=smtp.gmail.com}
+2026-03-18 15:33:04.173 [main] INFO  utilities.EmailReportSender - Report sent successfully to hafizgee07@gmail.com
+2026-03-18 15:34:26.546 [main] INFO  testCases.TC_002DDTRegistrationPageTest - ===== Test Execution Started =====
+2026-03-18 15:34:28.904 [main] INFO  testCases.TC_002DDTRegistrationPageTest - Running on Local Chrome
+2026-03-18 15:34:34.668 [main] INFO  testCases.TC_002DDTRegistrationPageTest - Navigated to: https://ecommerce-playground.lambdatest.io/index.php?route=common/home
+2026-03-18 15:34:34.737 [main] INFO  testCases.TC_002DDTRegistrationPageTest - ===== Starting Registration Page Test =====
+2026-03-18 15:34:45.121 [main] INFO  testCases.TC_002DDTRegistrationPageTest - Browser closed successfully.
+2026-03-18 15:35:03.932 [main] INFO  testCases.TC_001HomePageTest - ===== Test Execution Started =====
+2026-03-18 15:35:06.126 [main] INFO  testCases.TC_001HomePageTest - Running on Local Chrome
+2026-03-18 15:35:15.973 [main] INFO  testCases.TC_001HomePageTest - Navigated to: https://ecommerce-playground.lambdatest.io/index.php?route=common/home
+2026-03-18 15:35:16.016 [main] INFO  testCases.TC_001HomePageTest - ===== Starting Home Page Test =====
+2026-03-18 15:35:16.144 [main] INFO  testCases.TC_001HomePageTest - HomePage validation passed
+2026-03-18 15:35:16.145 [main] INFO  testCases.TC_001HomePageTest - ===== Home Page Test Passed =====
+2026-03-18 15:35:16.308 [main] INFO  testCases.TC_001HomePageTest - ===== Hover over My Account =====
+2026-03-18 15:35:20.637 [main] INFO  testCases.TC_001HomePageTest - ===== User redirected to Registration Page =====
+2026-03-18 15:35:20.852 [main] INFO  testCases.TC_001HomePageTest - Browser closed successfully.
+2026-03-18 15:35:21.166 [main] INFO  utilities.EmailReportSender - Sender email: ahsan.clariv@gmail.com
+2026-03-18 15:35:21.166 [main] INFO  utilities.EmailReportSender - Sender password: mstv vggb nbmk kehz
+2026-03-18 15:35:21.166 [main] INFO  utilities.EmailReportSender - SMTP properties: {mail.smtp.port=587, mail.smtp.auth=true, mail.smtp.starttls.enable=true, mail.smtp.host=smtp.gmail.com}
+2026-03-18 15:35:25.460 [main] INFO  utilities.EmailReportSender - Report sent successfully to hafizgee07@gmail.com
+2026-03-18 15:36:30.878 [main] INFO  testCases.TC_001HomePageTest - ===== Test Execution Started =====
+2026-03-18 15:36:32.623 [main] INFO  testCases.TC_001HomePageTest - Running on Local Chrome
+2026-03-18 15:36:42.315 [main] INFO  testCases.TC_001HomePageTest - Navigated to: https://ecommerce-playground.lambdatest.io/index.php?route=common/home
+2026-03-18 15:36:42.365 [main] INFO  testCases.TC_001HomePageTest - ===== Starting Home Page Test =====
+2026-03-18 15:36:42.497 [main] INFO  testCases.TC_001HomePageTest - HomePage validation passed
+2026-03-18 15:36:42.498 [main] INFO  testCases.TC_001HomePageTest - ===== Home Page Test Passed =====
+2026-03-18 15:36:42.677 [main] INFO  testCases.TC_001HomePageTest - ===== Hover over My Account =====
+2026-03-18 15:36:49.557 [main] INFO  testCases.TC_001HomePageTest - ===== User redirected to Registration Page =====
+2026-03-18 15:36:49.765 [main] INFO  testCases.TC_001HomePageTest - Browser closed successfully.
+2026-03-18 15:36:49.765 [main] INFO  testCases.TC_002DDTRegistrationPageTest - ===== Test Execution Started =====
+2026-03-18 15:36:50.912 [main] INFO  testCases.TC_002DDTRegistrationPageTest - Running on Local Chrome
+2026-03-18 15:36:59.669 [main] INFO  testCases.TC_002DDTRegistrationPageTest - Navigated to: https://ecommerce-playground.lambdatest.io/index.php?route=common/home
+2026-03-18 15:36:59.672 [main] INFO  testCases.TC_002DDTRegistrationPageTest - ===== Starting Registration Page Test =====
+2026-03-18 15:37:20.000 [main] INFO  utilities.ScreenshotUtil - Screenshot saved to: D:\SeleniumLearning\LambdatestPlayground/screenshots/registrationPageDDTxlx_20260318153719.png
+2026-03-18 15:37:20.275 [main] INFO  testCases.TC_002DDTRegistrationPageTest - Browser closed successfully.
+2026-03-18 15:37:20.680 [main] INFO  utilities.EmailReportSender - Sender email: ahsan.clariv@gmail.com
+2026-03-18 15:37:20.680 [main] INFO  utilities.EmailReportSender - Sender password: mstv vggb nbmk kehz
+2026-03-18 15:37:20.680 [main] INFO  utilities.EmailReportSender - SMTP properties: {mail.smtp.port=587, mail.smtp.auth=true, mail.smtp.starttls.enable=true, mail.smtp.host=smtp.gmail.com}
+2026-03-18 15:37:24.520 [main] INFO  utilities.EmailReportSender - Report sent successfully to hafizgee07@gmail.com
+2026-03-18 15:42:18.830 [main] INFO  testCases.TC_002DDTRegistrationPageTest - ===== Test Execution Started =====
+2026-03-18 15:42:33.470 [main] INFO  testCases.TC_002DDTRegistrationPageTest - ===== Test Execution Started =====
+2026-03-18 15:42:35.765 [main] INFO  testCases.TC_002DDTRegistrationPageTest - Running on Local Chrome
+2026-03-18 15:42:42.799 [main] INFO  testCases.TC_002DDTRegistrationPageTest - Navigated to: https://ecommerce-playground.lambdatest.io/index.php?route=common/home
+2026-03-18 15:42:42.846 [main] INFO  testCases.TC_002DDTRegistrationPageTest - ===== Starting Registration Page Test =====
+2026-03-18 15:42:51.711 [main] INFO  testCases.TC_002DDTRegistrationPageTest - RegistrationPage validation passed
+2026-03-18 15:42:51.711 [main] INFO  testCases.TC_002DDTRegistrationPageTest - ===== Registration Page Test Passed =====
+2026-03-18 15:42:51.900 [main] INFO  testCases.TC_002DDTRegistrationPageTest - Browser closed successfully.
+2026-03-18 15:42:52.215 [main] INFO  utilities.EmailReportSender - Sender email: ahsan.clariv@gmail.com
+2026-03-18 15:42:52.215 [main] INFO  utilities.EmailReportSender - Sender password: mstv vggb nbmk kehz
+2026-03-18 15:42:52.215 [main] INFO  utilities.EmailReportSender - SMTP properties: {mail.smtp.port=587, mail.smtp.auth=true, mail.smtp.starttls.enable=true, mail.smtp.host=smtp.gmail.com}
+2026-03-18 15:42:56.254 [main] INFO  utilities.EmailReportSender - Report sent successfully to hafizgee07@gmail.com
+2026-03-18 15:43:46.103 [main] INFO  testCases.TC_001HomePageTest - ===== Test Execution Started =====
+2026-03-18 15:43:47.860 [main] INFO  testCases.TC_001HomePageTest - Running on Local Chrome
+2026-03-18 15:43:57.531 [main] INFO  testCases.TC_001HomePageTest - Navigated to: https://ecommerce-playground.lambdatest.io/index.php?route=common/home
+2026-03-18 15:43:57.576 [main] INFO  testCases.TC_001HomePageTest - ===== Starting Home Page Test =====
+2026-03-18 15:43:57.722 [main] INFO  testCases.TC_001HomePageTest - HomePage validation passed
+2026-03-18 15:43:57.722 [main] INFO  testCases.TC_001HomePageTest - ===== Home Page Test Passed =====
+2026-03-18 15:43:57.899 [main] INFO  testCases.TC_001HomePageTest - ===== Hover over My Account =====
+2026-03-18 15:44:06.996 [main] INFO  testCases.TC_001HomePageTest - ===== User redirected to Registration Page =====
+2026-03-18 15:44:07.197 [main] INFO  testCases.TC_001HomePageTest - Browser closed successfully.
+2026-03-18 15:44:07.201 [main] INFO  testCases.TC_002DDTRegistrationPageTest - ===== Test Execution Started =====
+2026-03-18 15:44:08.220 [main] INFO  testCases.TC_002DDTRegistrationPageTest - Running on Local Chrome
+2026-03-18 15:44:15.207 [main] INFO  testCases.TC_002DDTRegistrationPageTest - Navigated to: https://ecommerce-playground.lambdatest.io/index.php?route=common/home
+2026-03-18 15:44:15.212 [main] INFO  testCases.TC_002DDTRegistrationPageTest - ===== Starting Registration Page Test =====
+2026-03-18 15:44:21.617 [main] INFO  testCases.TC_002DDTRegistrationPageTest - RegistrationPage validation passed
+2026-03-18 15:44:21.618 [main] INFO  testCases.TC_002DDTRegistrationPageTest - ===== Registration Page Test Passed =====
+2026-03-18 15:44:21.798 [main] INFO  testCases.TC_002DDTRegistrationPageTest - Browser closed successfully.
+2026-03-18 15:44:22.117 [main] INFO  utilities.EmailReportSender - Sender email: ahsan.clariv@gmail.com
+2026-03-18 15:44:22.117 [main] INFO  utilities.EmailReportSender - Sender password: mstv vggb nbmk kehz
+2026-03-18 15:44:22.117 [main] INFO  utilities.EmailReportSender - SMTP properties: {mail.smtp.port=587, mail.smtp.auth=true, mail.smtp.starttls.enable=true, mail.smtp.host=smtp.gmail.com}
+2026-03-18 15:44:26.307 [main] INFO  utilities.EmailReportSender - Report sent successfully to hafizgee07@gmail.com
