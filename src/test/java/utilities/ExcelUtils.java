@@ -84,8 +84,8 @@ public class ExcelUtils {
                     return cell.getStringCellValue();
                 case NUMERIC:
                     return String.valueOf(cell.getNumericCellValue());
-//                case BOOLEAN:
-//                    return String.valueOf(cell.getBooleanCellValue());
+                case BOOLEAN:
+                    return String.valueOf(cell.getBooleanCellValue()).trim();
 //                case FORMULA:
 //                    return cell.getCellFormula();
                 default:

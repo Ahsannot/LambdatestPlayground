@@ -15,6 +15,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.asserts.SoftAssert;
 import utilities.ConfigReader;
 
 import java.io.IOException;
@@ -118,6 +119,22 @@ public class BaseClass {
         }
         logger.info(pageName + " validation passed");
     }
+
+    // ================= SOFT / DDT-SAFE VALIDATION =================
+    public boolean validatePageMessageSoft(String actual, String expected, String pageName, SoftAssert softAssert) {
+        if (actual.equals(expected)) {
+            logger.info(pageName + " validation passed");
+            return true;
+        } else {
+            logger.warn(pageName + " validation failed | Expected: "
+                    + expected + " | Actual: " + actual);
+            if (softAssert != null) {
+                softAssert.assertEquals(actual, expected, pageName + " validation failed");
+            }
+            return false;
+        }
+    }
+
 
     // Attach driver to ITestResult
     @BeforeMethod(alwaysRun = true)

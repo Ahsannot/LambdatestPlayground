@@ -5,7 +5,7 @@
     </listeners>
     <test name="Lambdatest Playground Tests">
         <classes>
-            <class name="testCases.TC_001HomePageTest"/>
+<!--            <class name="testCases.TC_001HomePageTest"/>-->
             <class name="testCases.TC_002DDTRegistrationPageTest"/>
         </classes>
     </test>

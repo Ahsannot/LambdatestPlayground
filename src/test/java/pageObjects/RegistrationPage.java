@@ -53,7 +53,7 @@ public class RegistrationPage extends BasePage {
             return text_RegisterAccount.getText();
         } catch (Exception e) {
             System.out.println("Error fetching confirmation message: " + e.getMessage());
-            return null;
+            return "";
         }
     }
 
