@@ -62,27 +62,10 @@ public class TC_002DDTRegistrationPageTest extends BaseClass {
             registrationPage.inputConfirm(confirmPassword);
             registrationPage.setSubscribe(subscribe);
             registrationPage.setPrivacyPolicy(privacyPolicy);
-            registrationPage.submitBtn();
 
-            // Handle success/failure WITHOUT an exception breaking flow
-            SuccessPage successPage = new SuccessPage(getDriver());
-            WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(8));
-
-            boolean isSuccess = false;
-
-            try {
-                wait.until(ExpectedConditions.visibilityOf(successPage.page_title));
-                String successMsg = successPage.getConfirmationMessage();
-
-                if (successMsg.contains("Your Account Has Been Created!")) {
-                    isSuccess = true;
-                }
-
-            } catch (Exception e) {
-                logger.info("Success page NOT displayed (expected for negative cases)");
-                isSuccess = false;
-            }
-
+            // Submit form and get SuccessPage if it appears
+            SuccessPage successPage = registrationPage.submitBtn();
+            boolean isSuccess = (successPage != null); // true if registration succeeded
             //  Decide a result
             actualResult = isSuccess ? "Pass" : "Fail";
 

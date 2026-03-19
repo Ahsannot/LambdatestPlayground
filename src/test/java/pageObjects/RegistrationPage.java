@@ -3,6 +3,10 @@ package pageObjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class RegistrationPage extends BasePage {
 
@@ -105,8 +109,20 @@ public class RegistrationPage extends BasePage {
     }
 
     // Submit button with wait and scroll
-    public void submitBtn() {
+//    public void submitBtn() {
+//        safeClick(btn_Continue);
+//    }
+
+    public SuccessPage submitBtn() {
         safeClick(btn_Continue);
+        SuccessPage successPage = new SuccessPage(driver);
+        try {
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(8));
+            wait.until(ExpectedConditions.visibilityOf(successPage.page_title));
+            return successPage; // success page is visible
+        } catch (Exception e) {
+            return null; // registration failed, no success page
+        }
     }
 
 }
